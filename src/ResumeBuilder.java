@@ -13,6 +13,7 @@ import java.util.logging.Logger;
 
 public class ResumeBuilder implements ActionListener {
     ResumeBuilder() {
+        //defining all the fields
         TextField nt;
         TextField at;
         TextField ct;
@@ -83,13 +84,13 @@ public class ResumeBuilder implements ActionListener {
         head.setBounds(0, 35, 1150, 70);
         head.setFont(new Font("Tahoma", Font.BOLD, 30));
         head.setAlignment(Label.CENTER);
-//        head.setBackground(Color.cyan);
+        // head.setBackground(Color.cyan);
         mainFrame.add(head);
         Label l1;
         l1 = new Label("PERSONAL INFORMATION");
         l1.setBounds(20, 105, 260, 20);
         l1.setFont(new Font("Tahoma", Font.BOLD, 20));
-//        l1.setBackground(Color.pink);
+        // l1.setBackground(Color.pink);
         l1.setForeground(Color.black);
 
         Label name = new Label("Name:");
